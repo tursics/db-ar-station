@@ -1,0 +1,32 @@
+#arjsDebugUIContainer {
+	display: none;
+}
+
+a-box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#ice {
+	width: 400px;
+	height: 160px;
+	background: url('assets/journey-train.png');
+	background-repeat: no-repeat;
+	animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-position-y: 14px;}
+    24.9%   {background-position-y: 14px;}
+    25%  {background-position-y: -173px;}
+    49.9%  {background-position-y: -173px;}
+    50%  {background-position-y: -337px;}
+    74.9%  {background-position-y: -337px;}
+    75%  {background-position-y: -514px;}
+    100%   {background-position-y: -514px;}
+}
