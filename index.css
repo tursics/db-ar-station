@@ -18,15 +18,20 @@ a-box {
 	animation-name: example;
     animation-duration: 4s;
 	animation-iteration-count: infinite;
+	margin-top: 50px;
 }
 
 @keyframes example {
     0%   {background-position-y: 14px;}
-    24.9%   {background-position-y: 14px;}
-    25%  {background-position-y: -173px;}
-    49.9%  {background-position-y: -173px;}
-    50%  {background-position-y: -337px;}
-    74.9%  {background-position-y: -337px;}
-    75%  {background-position-y: -514px;}
-    100%   {background-position-y: -514px;}
+    79.9%   {background-position-y: 14px;}
+    80%  {background-position-y: -173px;}
+    81.9%  {background-position-y: -173px;}
+    82%  {background-position-y: -337px;}
+    83.9%  {background-position-y: -337px;}
+    84%  {background-position-y: -514px;}
+    95.9%   {background-position-y: -514px;}
+    96%  {background-position-y: -337px;}
+    97.9%  {background-position-y: -337px;}
+    98%  {background-position-y: -173px;}
+    100%  {background-position-y: -173px;}
 }
